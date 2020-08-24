@@ -213,7 +213,7 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(tabPressed))
         {
             Debug.Log("Tab Pressed");
-            onTabPressed.Invoke();
+            onTabPressed?.Invoke();
         }
     }
 
